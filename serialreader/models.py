@@ -11,3 +11,7 @@ class DetailsModel(models.Model):
     
     def __str__(self):
         return "Dist1:" + self.dist1 + "Dist2:" + self.dist2 + "Dist3:" + self.dist3 + "Dist4:" + self.dist4
+    
+    
+class PressComModel(models.Model):
+    com_number = models.CharField(max_length=100)

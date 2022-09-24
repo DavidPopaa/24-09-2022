@@ -8,4 +8,5 @@ urlpatterns = [
     path("auth/", obtain_auth_token),
     path("api/", include("account.api.urls")),
     path("serial/", include("serialreader.urls")),
+    path("metricubi/", include("webparsinginspectorulpadurii.urls"))
 ]
